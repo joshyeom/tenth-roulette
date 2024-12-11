@@ -23,7 +23,7 @@
     "lint": "eslint --fix src/**/*.ts",
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url /roulette/",
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
